@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Helvetica, meiryo;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#board {
+	position: relative;
+	margin: 20px auto 20px auto;
+	width: 200px;
+	height: 400px;
+	border: 1px solid #333;
+	overflow: hidden;
+}
+
+#board .block {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #aaa;
+	background: #333;
+}
+
+#board .none {
+	display: none;
+}
+
+#board .skyblue {
+	background: skyblue;
+}
+
+#board .yellow {
+	background: yellow
+}
+
+#board .green {
+	background: green;
+}
+
+#board .red {
+	background: red;
+}
+
+#board .blue {
+	background: blue;
+}
+
+#board .orange {
+	background: orange;
+}
+
+#board .pink {
+	background: pink;
+}
+
+#board img {
+	position: absolute;
+	border: none;
+}
+
+#guide {
+	font-size: 10px;
+	position: relative;
+	margin: 20px auto 0px auto;
+	width: 400px;
+	text-align: left;
+}
+
+#guide img {
+	width: 50px;
+	height: auto;
+}
